@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.helloworld.activity.MainActivity" >
+
+    <!-- 主界面活动菜单 -->
+    <item
+        android:title="字体大小">
+        <menu>
+            <group
+                android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/main_size10"
+                    android:title="10号字"/>
+                <item
+                    android:id="@+id/main_size16"
+                    android:title="16号字"/>
+                <item
+                    android:id="@+id/main_size20"
+                    android:title="20号字"/>
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/main_normal"
+        android:title="普通菜单项"
+        />
+
+    <item
+        android:title="字体颜色">
+        <menu>
+            <group
+                android:checkableBehavior="single" >
+                <item
+                    android:id="@+id/main_black"
+                    android:title="黑色"/>
+                <item
+                    android:id="@+id/main_red"
+                    android:title="红色"/>
+            </group>
+        </menu>
+    </item>
+
+</menu>
